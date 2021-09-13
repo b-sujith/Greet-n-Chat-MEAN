@@ -1,0 +1,43 @@
+<div class="bg-component">
+<div class="container" >
+
+	<div class="col-md-9 col-lg-7 col-xl-6 bg-gradient-clouds mt-3 mt-sm-5 mx-auto p-5 rounded text-center">
+	
+		<div class="row no-gutters">
+			<div class="col">
+                <i class="fas fa-sign-in-alt fa-5x"></i>
+				<h3>LOGIN</h3>
+			</div>
+		</div>
+
+		<div class="row mt-3 no-gutters">
+			<div class="col">
+				<div class="input-group mt-2" >
+					<div class="input-group-prepend " >
+						<span class="input-group-text"><i class="far fa-user"></i></span>
+					</div>
+					<input class="form-control" name="username" placeholder="Username" style="height: 30px;" type="text" [(ngModel)]="user">
+				</div>
+			</div>
+		</div>
+		<div class="row mt-3 no-gutters">
+			<div class="col">
+				<div class="input-group mt-2" >
+					<div class="input-group-prepend " >
+						<span class="input-group-text"><i class="fa fa-key"></i></span>
+					</div>
+					<input class="form-control" name="password" placeholder="Password" style="height: 30px;" type="password" [(ngModel)]="pass">
+				</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters">
+			<div class="col">
+				<button class="btn btn-block btn-dark mt-3" (click)="fun()" name="submit" type="submit">Login</button>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+</div>

@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  margin: 0;
+  font-family: 'Uchen', serif;
+}
+
+.header {
+  min-height: 60vh;
+  background: #009FFF;
+background: linear-gradient(to right, #ec2F4B, #009FFF);
+  color: white;
+  clip-path: ellipse(100vw 60vh at 50% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  text-align: center;
+}
+
+.profile-pic {
+  height: 25rem;
+  width: 22rem;
+  object-fit: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.location p {
+  display: inline-block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100vh;
+  background: #7684e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  background: #6e34f4;
+  padding: 20px;
+  font-weight: 300;
+  color: white;
+  font-size: 30px;
+}
+
+form {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.row {
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  padding: 15px;
+}
+
+textarea {
+  resize: none;
+}
+.buttons {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  text-transform: uppercase;
+  width: 45%;
+  padding: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.send {
+  background: #6e34f4;
+}
+
+.reset {
+  background: rgb(238, 126, 126);
+}
+
+/* FORM VALIDATION STYLES */
+.disabled {
+  background: #6e34f47c;
+  cursor: not-allowed;
+}
+
+/*input styles */
+.error {
+  text-align: center;
+  padding: 2px;
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+.border-green {
+  border: 2px solid rgb(19, 201, 19);
+  border-radius: 3px;
+}
+
+.border-red {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+.error-message {
+  margin-top: 5px;
+  padding: 3px;
+  border: 1px solid red;
+  border-radius: 2px;
+  text-align: center;
+  color: red;
+}
+
+
+.location svg {
+  vertical-align: middle;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats .col-4 {
+  width: 10rem;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
